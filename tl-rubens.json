@@ -1,0 +1,107 @@
+{
+    "title": {
+        "media": {
+          "url": "./img/RUB000077.jpg"
+        },
+        "text": {
+          "headline": "Achilles Dipped into the River Styx",
+          "text": "Oil Sketch"
+        }
+    },
+    "events": [
+      {
+        "start_date": {
+          "year": "1643"
+        },
+        "end_date": {
+          "year": "1681"
+        },
+        "text": {
+          "headline": "Daniel Fourment",
+          "text": "Antwerp"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1681"
+        },
+        "end_date": {
+          "year": "1691"
+        },
+        "text": {
+          "headline": "Jean-Henry Gobelinus",
+          "text": "Brussels"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1691"
+        },
+        "end_date": {
+          "year": "1724"
+        },
+        "text": {
+          "headline": "Joan Baptista Anthoine",
+          "text": "Antwerp"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1724"
+        },
+        "end_date": {
+          "year": "1754"
+        },
+        "text": {
+          "headline": "Richard Mead",
+          "text": "n/a"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1754"
+        },
+          "end_date": {
+          "year": "1794"
+        },
+        "text": {
+          "headline": "Fulk Greville",
+          "text": "n/a"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1794"
+        },
+        "end_date": {
+          "year": "1814"
+        },
+        "text": {
+          "headline": "John Smith-Barry",
+          "text": "Marbury Hall, Northwich, Cheshire"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1814"
+        },
+        "end_date": {
+          "year": "1933"
+        },
+        "text": {
+          "headline": "A.H. Smith-Barry",
+          "text": "n/a"
+        }
+      },
+      {
+        "start_date": {
+          "year": "1933"
+        },
+        "text": {
+          "headline": "Lord Barrymore",
+          "text": "London"
+        }
+      }
+ 
+    ]
+}

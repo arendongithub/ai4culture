@@ -113,9 +113,10 @@ Slide - From unstructured to structured information
     <section class="slide">
         <h2>From unstructured to structured information</h2>
         <ul>
+            <li><strong><mark>Corpus</mark></strong>: THE ACHILLES SERIES (<i>Corpus Rubenianum</i> X)</li>
             <li><strong><mark>What we tried</mark></strong>: LLM-powered extraction of structured (json) information from pdf files</li>
             <li><strong><mark>Purpose</mark></strong>: provide useful research data</li>
-            <li><strong><mark>Technology used</mark></strong>: LlamaParse, LlamaIndex, Cohere LLM API</li>
+            <li><strong><mark>Technology used</mark></strong>: LlamaParse, LlamaIndex, Pydantic, Cohere LLM API</li>
         </ul>
     </section>
 
@@ -123,25 +124,6 @@ Slide - From unstructured to structured information
         <h2><mark>Corpus Rubenianum</mark></h2>
         <figure>
             <img class="cover width" src="./img/rub-1.png" alt="">
-        </figure>
-    </section>
-
-    <section class="slide">
-        <h2><mark>Literature</mark></h2>
-        <figure>
-            <img class="cover" src="./img/rub-2.png" alt="">
-        </figure>
-    </section>
-
-    <section class="slide">
-        <h2>Literature</h2>
-        <ul>
-            <li>full bibliographic record<br>retrieved from the<br> 'Literature' section</li>
-            <li>extraction of structured data</li>
-            <li>JSON format</li>
-        </ul>
-        <figure>
-            <img class="cover place right" src="./img/rub-3.png" alt="">
         </figure>
     </section>
 
@@ -172,6 +154,25 @@ Slide - From unstructured to structured information
         </ul>
         <figure>
             <img class="cover place right" src="./img/rub-6.png" alt="" width="60%">
+        </figure>
+    </section>
+
+    <section class="slide">
+        <h2><mark>Literature</mark></h2>
+        <figure>
+            <img class="cover" src="./img/rub-2.png" alt="">
+        </figure>
+    </section>
+
+    <section class="slide">
+        <h2>Literature</h2>
+        <ul>
+            <li>full bibliographic record<br>retrieved from the<br> 'Literature' section</li>
+            <li>extraction of structured data</li>
+            <li>JSON format</li>
+        </ul>
+        <figure>
+            <img class="cover place right" src="./img/rub-3.png" alt="">
         </figure>
     </section>
 
@@ -212,10 +213,96 @@ SECTION Slide - Valorizing results - First steps
     </section>
 
     <section class="slide">
+        <h2>Provenances Timeline</h2>
+        <iframe class="cover" src="./tl.html" width="100%" frameborder="0"></iframe>
+    </section>
+
+    <section class="slide">
+        <h2 style="margin-top: -50px;">Object Detection with Multimodal LLM</h2>
+        <ul>
+            <li>using multimodal zero-shot object detection</li>
+            <li><mark>input</mark>: image + structured character description</li>
+            <li><mark>output</mark>: bounding box</li>
+            <li><mark>model</mark>: Grounding DINO (Open-Set Object Detection)</li>
+        </ul>
+    </section>
+
+    <section class="slide">
         <h2 style="margin-top: -50px;">Object Detection<br>with Multimodal LLM</h2>
         <figure>
             <img class="cover width" src="./img/rub-8.png" alt="">
         </figure>
+    </section>
+
+    <section class="slide">
+        <h2 style="margin-top: -50px;">Object Detection<br>with Multimodal LLM</h2>
+        <div columns="two">
+            <div>
+                <p><strong>Next steps:</strong></p>
+                <ul>
+                    <li>image maps</li>
+                    <li>AR application</li>
+                </ul>
+            </div>
+            <figure>
+                <img class="cover height place right" src="./img/RUB000077.jpg" alt="">
+                <div id="thetis">
+                    <div class="hidden-element"><strong>Cerberus</strong>, the watchdog of the underworld, is depicted with three heads: one sleeping, one watching, and the third barking.</div>
+                <div>
+            </figure>
+        </div>
+        <style type="text/css">
+        #thetis {
+            position: absolute;
+            bottom: -100px;
+            left: 650px;
+            width: 300px;
+            height: 200px;
+        }
+        .hidden-element {
+            display: none;
+            color: black;
+            background: rgba(239, 239, 239, 0.6);
+            font-size: 0.6em;
+        }
+
+        #thetis:hover div {
+            display: block;
+        }
+        </style>    
+    </section>
+
+    <section class="slide" id="cover" style="background-color: darkcyan;">
+        <h2>Valorizing results - Next steps</h2>
+        <p style="font-size: 1.8em;"></p>
+        <figure>
+        </figure>
+        <style>
+            #cover h2 {
+                margin: 30px 0 0;
+                text-align: center;
+                font-size: 70px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2 style="margin-top: -50px;">Valorizing results - Next steps</h2>
+        <ul>
+            <li><mark>full parsing</mark> <i>Corpus Rubenianum</i> in close cooperation with Centrum Rubenianum staff</li>
+            <li>investigating <mark>valorization</mark> options: timeline, network graph, keyword extraction</li>
+            <li>testing and fine-tuning <mark>object detection</mark> using parsed structured iconographic data</li>
+        </ul>
     </section>
 
     <div class="progress"></div>
