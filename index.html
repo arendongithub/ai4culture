@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AI4Culture Hackathon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="./shower/themes/ribbon-orig/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>AI4Culture Hackathon</h1>
+    </header>
+
+<!--
+#####
+Slide - Splash
+#####
+-->
+
+    <section class="slide" id="cover">
+        <h2>Un2Structured</h2>
+        <h2 style="font-size: 1.2em;">Unlocking An Unstructured Pdf Art Catalogue - Corpus Rubenianum</h2>
+        <p>AI4Culture Hackathon - 20 February 2025</p>
+        <p>Arnoud Wils - <i>The Plant</i> - Maastricht University</p>
+        <figure>
+            <img class="cover width" src="./img/RUB000077.jpg" alt="">
+        </figure>
+        <style>
+            #cover h2 {
+                margiIntroductory n: 30px 0 0;
+                color: white;
+                text-align: center;
+                font-size: 70px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                color: white;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+                color: white;
+            }
+        </style>
+    </section>
+
+<!--
+#####
+Slide - Corpus Rubenianum
+#####
+-->
+
+    <section class="slide">
+        <h2>Corpus Rubenianum</h2>
+        <ul>
+            <li>impressive catalogue of Rubens's works</li>
+            <li>based on the documentation on artworks belonging to the Rubens specialist Ludwig Burchard (1886-1960)</li>
+            <li>edited by Centrum Rubenianum</li>
+            <li>enriched with links to artwork images at the Netherlands Institute for Art History (RKD)</li>
+            <li>books that are more than 15 years available as full-text searchable PDF files</li> 
+        </ul>
+    </section>
+
+
+<!--
+#####
+SECTION Slide - Challenge
+#####
+-->
+    <section class="slide" id="cover" style="background-color: darkcyan;">
+        <h2>The challenge</h2>
+        <p style="font-size: 1.8em;"></p>
+        <figure>
+        </figure>
+        <style>
+            #cover h2 {
+                margin: 30px 0 0;
+                text-align: center;
+                font-size: 70px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+            }
+        </style>
+    </section>
+
+
+<!--
+#####
+Slide - From unstructured to structured information
+#####
+-->
+
+    <section class="slide">
+        <h2>From unstructured to structured information</h2>
+        <ul>
+            <li><strong><mark>What we tried</mark></strong>: LLM-powered extraction of structured (json) information from pdf files</li>
+            <li><strong><mark>Purpose</mark></strong>: provide useful research data</li>
+            <li><strong><mark>Technology used</mark></strong>: LlamaParse, LlamaIndex, Cohere LLM API</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2><mark>Corpus Rubenianum</mark></h2>
+        <figure>
+            <img class="cover width" src="./img/rub-1.png" alt="">
+        </figure>
+    </section>
+
+    <section class="slide">
+        <h2><mark>Literature</mark></h2>
+        <figure>
+            <img class="cover" src="./img/rub-2.png" alt="">
+        </figure>
+    </section>
+
+    <section class="slide">
+        <h2>Literature</h2>
+        <ul>
+            <li>full bibliographic record<br>retrieved from the<br> 'Literature' section</li>
+            <li>extraction of structured data</li>
+            <li>JSON format</li>
+        </ul>
+        <figure>
+            <img class="cover place right" src="./img/rub-3.png" alt="">
+        </figure>
+    </section>
+
+    <section class="slide">
+        <h2>Provenances</h2>
+        <ul>
+            <li>extraction of structured data</li>
+            <li>JSON format</li>
+        </ul>
+        <figure>
+            <img class="cover width" src="./img/rub-4.png" alt="">
+        </figure>
+    </section>
+
+    <section class="slide">
+        <h2><mark>Iconography</mark></h2>
+        <figure>
+            <img class="cover width" src="./img/rub-5.png" alt="">
+        </figure>
+    </section>
+
+    <section class="slide">
+        <h2>Iconography</h2>
+        <ul>
+            <li>extraction of structured data</li>
+            <li>names, attributes, position</li>
+            <li>JSON format</li>
+        </ul>
+        <figure>
+            <img class="cover place right" src="./img/rub-6.png" alt="" width="60%">
+        </figure>
+    </section>
+
+<!--
+#####
+SECTION Slide - Valorizing results - First steps
+#####
+-->
+    <section class="slide" id="cover" style="background-color: darkcyan;">
+        <h2>Valorizing results - First steps</h2>
+        <p style="font-size: 1.8em;"></p>
+        <figure>
+        </figure>
+        <style>
+            #cover h2 {
+                margin: 30px 0 0;
+                text-align: center;
+                font-size: 70px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Provenances Timeline</h2>
+        <figure>
+            <img class="cover place bottom" src="./img/rub-7.png" alt="" height="70%">
+        </figure>
+    </section>
+
+    <section class="slide">
+        <h2 style="margin-top: -50px;">Object Detection<br>with Multimodal LLM</h2>
+        <figure>
+            <img class="cover width" src="./img/rub-8.png" alt="">
+        </figure>
+    </section>
+
+    <div class="progress"></div>
+
+    <script src="./shower/shower.js"></script>
+
+
+</body>
+</html>
